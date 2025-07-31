@@ -2,6 +2,17 @@ package com.marsrover;
 
 import java.util.Objects;
 
+/**
+ * Represents an immutable position on the Mars surface with x and y coordinates.
+ * <p>
+ * Provides functionality for movement calculations, boundary checking, and
+ * optimized equality/hashing operations for use in collections.
+ * </p>
+ * 
+ * @author gracewee
+ * @version 1.0
+ * @since 1.0
+ */
 public class Position {
     private final int x;
     private final int y;

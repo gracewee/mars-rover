@@ -4,6 +4,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.*;
 
+/**
+ * Main application class for the Mars Rover simulation.
+ * <p>
+ * Provides command-line interface for controlling rovers with support for
+ * multiple rovers, boundary definitions, and collision detection. Can run
+ * in interactive mode or process command-line arguments.
+ * </p>
+ * 
+ * @author gracewee
+ * @version 1.0
+ * @since 1.0
+ */
 @SpringBootApplication
 public class RunRoverApplication {
 

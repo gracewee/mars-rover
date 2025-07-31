@@ -1,5 +1,16 @@
 package com.marsrover;
 
+/**
+ * Represents the available commands for controlling a Mars rover.
+ * <p>
+ * Each command is represented by a single character symbol and provides
+ * functionality to parse commands from characters or strings.
+ * </p>
+ * 
+ * @author gracewee
+ * @version 1.0
+ * @since 1.0
+ */
 public enum Command {
     LEFT('L'),
     RIGHT('R'),

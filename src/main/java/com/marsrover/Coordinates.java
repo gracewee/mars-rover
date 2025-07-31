@@ -3,6 +3,18 @@ package com.marsrover;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Manages the position and orientation of a Mars rover on the surface.
+ * <p>
+ * Handles rover movement, rotation, boundary constraints, and collision
+ * detection with blocked positions. Processes movement commands while
+ * respecting defined borders and obstacles.
+ * </p>
+ * 
+ * @author gracewee
+ * @version 1.0
+ * @since 1.0
+ */
 public class Coordinates {
 
     private Position position;

@@ -1,5 +1,16 @@
 package com.marsrover;
 
+/**
+ * Represents the four cardinal directions for Mars rover navigation.
+ * <p>
+ * Each direction contains movement deltas and provides rotation functionality
+ * for turning left or right. Supports parsing from character or string input.
+ * </p>
+ * 
+ * @author gracewee
+ * @version 1.0
+ * @since 1.0
+ */
 public enum Direction {
     NORTH(0, 1, 'N'),
     EAST(1, 0, 'E'),
