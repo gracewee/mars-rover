@@ -18,7 +18,7 @@ public class PerformanceTest {
     private Coordinates coordinates;
 
     private static final long LIMIT_IN_SECS = 1L;
-    private static final long LIMIT_IN_NANO_SECS = (long) LIMIT_IN_SECS * 1_000_000_000L;
+    private static final long LIMIT_IN_NANO_SECS = LIMIT_IN_SECS * 1_000_000_000L;
 
 
     @BeforeEach
